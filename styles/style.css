@@ -774,8 +774,7 @@ body {
   font-family: inherit;
 }
 
-.input-checkbox + span.markup,
-.input-checkbox:checked + span.markup {
+.input-checkbox + span.markup {
   content: " ";
   display: block;
   height: 20px;
@@ -827,8 +826,7 @@ body {
   align-items: center;
 }
 
-.input-radio + span.markup,
-.input-radio:checked span.markup {
+.input-radio + span.markup {
   content: " ";
   display: block;
   height: 20px;
