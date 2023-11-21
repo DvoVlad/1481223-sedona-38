@@ -783,6 +783,7 @@ body {
   border-radius: 4px;
   margin-right: 16px;
   box-sizing: border-box;
+  flex-shrink: 0;
 
   vertical-align: bottom;
   cursor: pointer;
@@ -823,7 +824,6 @@ body {
 
 .radio-label, .checkbox-label {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 
@@ -835,6 +835,7 @@ body {
   width: 20px;
   margin-right: 16px;
   box-sizing: border-box;
+  flex-shrink: 0;
 
   vertical-align: bottom;
   cursor: pointer;
